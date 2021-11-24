@@ -42,5 +42,4 @@ sed -i 's/\(Name=\)\(Terminal\)/\1Cutefish \2/' %{name}.desktop
 %doc README.md
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
-#dir #{_libqt5_archdatadir}/qml/Cutefish
-#{_libqt5_archdatadir}/qml/Cutefish/TermWidget/
+%{_libdir}/qt5/qml/Cutefish/TermWidget/
