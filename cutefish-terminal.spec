@@ -9,6 +9,7 @@ Group:          System/X11/Terminals
 URL:            https://github.com/cutefishos/terminal
 Source:         https://github.com/cutefishos/terminal/archive/refs/tags/%{version}/%{oname}-%{version}.tar.gz
 
+BuildRequires:  qmake5
 BuildRequires:  cmake
 BuildRequires:  cmake(FishUI)
 BuildRequires:  cmake(Qt5LinguistTools)
