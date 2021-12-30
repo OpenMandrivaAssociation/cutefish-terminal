@@ -1,7 +1,7 @@
 %define oname terminal
 
 Name:           cutefish-terminal
-Version:        0.5
+Version:        0.7
 Release:        1
 Summary:        Simple terminal
 License:        GPL-3.0-or-later
